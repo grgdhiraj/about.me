@@ -64,8 +64,14 @@
     <main class="page-content" aria-label="Content">
         <div class="wrapper">
             <div class="header">
-                <img class="profile" src="images/DhirajGurung.JPG">
-                <h1 class="profile-name">Dhiraj Gurung</h1>
+                <svg width="500" height="350">
+                    <defs>
+                        <clipPath id="myCircle">
+                            <circle cx="250" cy="145" r="125" fill="#FFFFFF" />
+                        </clipPath>
+                    </defs>
+                    <image width="500" height="350" xlink:href="images/DhirajGurung.JPG" clip-path="url(#myCircle)" />
+                </svg>
 
                 <div class="pure-menu pure-menu-horizontal pure-menu-scrollable">
                     <ul class="pure-menu-list">
